@@ -1,0 +1,100 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Iosevka Web"; 
+}
+
+.app {
+  background-image: url(./assets/backgroundcalc.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0,0,0.2), rgba(0, 0,0,0.75));
+  padding: 25px;
+  
+}
+
+.result-container {
+  width: 100%;
+}
+
+.result-container .result-box {
+  display: block;
+  width: 100%;
+  height:60px;
+  padding: 15px;
+  border: 2px solid;
+  background-color: rgba(255,255,255,0.5);
+  margin-top: -15px;
+
+  color: #313131;
+  font-size: 20px;
+}
+
+.func-button-container {
+  width: 100%;
+  display: flex;
+}
+
+.func-button-container > button {
+  color: #313131;
+  background-color: rgba(255,255,255,0.5);
+  border: 2px solid;
+  width: 100%;
+  height: 60px;
+
+  font-family: "Iosevka Web";
+  font-size: 25px;
+  font-weight: 400px;
+  
+  padding: 15px;
+}
+
+.func-button-container >button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.func-button-container > button:hover {
+  background-color: grey;
+}
+
+.numbers-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+
+.numbers-container > button {
+  color: #313131;
+  background-color: rgba(255,255,255,0.5);
+  border: 2px solid;
+  width: 100%;
+  height: 60px;
+
+  font-family: "Iosevka Web";
+  font-size: 25px;
+  font-weight: 400px;
+  
+  padding: 15px;
+}
+
+.numbers-container >button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.numbers-container > button:hover {
+  background-color: grey;
+}
+
+
